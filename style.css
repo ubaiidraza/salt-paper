@@ -1,0 +1,74 @@
+/* color variable */
+
+:root{
+    --red:#f42625;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+/* navbar styling */
+#navbar-items{
+    gap: 30px;
+}
+#navbar{
+    padding: 0px 10px;
+}
+
+#main-logo{
+    width: 165px;
+}
+.nav-link{
+    text-decoration: none;
+}
+#franchise{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 20px;
+    cursor: pointer; 
+    
+}
+#order-online{
+    background-color: var(--red);
+    border: 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#red{
+    color: var(--red);
+}
+#btn-icon{
+    padding: 5px 7px; 
+}
+
+#children-images{
+    gap: 30px;
+}
+.container{
+    border:2px;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+}
+.carts{
+    border:2px;
+    border-radius: 50px;
+    width: 350px;
+    height: 450px;
+    background-color: #0f0f0f;
+    color:#ffffff;
+
+}
+.publ{
+    width: 500px;
+    height: 500px;
+}
+.publ :hover{
+    width: 600px;
+    height: 600px;
+    cursor: pointer;
+}
+.star :hover{
+    color: red;
+}
+
+
